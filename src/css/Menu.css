@@ -1,0 +1,44 @@
+#menu {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.menuitem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 0px;
+    align-items: center;
+    overflow-wrap: break-word;
+}
+
+.menuitem p {
+    text-align: left;
+}
+
+.menuitem:not(.no-padding) {
+    padding: 3px 20px;
+}
+
+.clientmenu:nth-of-type(odd) {
+    background-color: #E6D5B8;
+}
+
+.menuitem p:first-child {
+    font-weight: bold;
+}
+
+.menuitem p:last-child {
+    margin-left: auto;
+}
+
+#menudata p {
+    text-align: left;
+    margin: 0px;
+}
+
+.menubutton {
+    margin-left: auto;
+}

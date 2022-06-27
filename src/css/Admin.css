@@ -1,0 +1,59 @@
+#transactions li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#transactions span {
+    display: block;
+    text-align: left;
+}
+
+#transactions div span:last-of-type {
+    font-size: small;
+    font-weight: lighter;
+}
+
+.transactiontotal {
+    margin-left: auto;
+}
+
+main > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+#editmenu {
+    flex: 2;
+    padding: 9px;
+    background-color: #f1e5cd;
+}
+
+#transactions {
+    flex: 1;
+    padding: 9px;
+    background-color: #E6D5B8;
+}
+
+#adminpanel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+#adminpanel > div:first-of-type {
+    flex: 1.5;
+}
+
+#adminpanel > div:last-of-type {
+    flex: 1 300px;
+    background-color: #E6D5B8;
+}
+
+#adminpanel > div:last-of-type > ul {
+    padding: 9px;
+}

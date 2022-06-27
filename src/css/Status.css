@@ -1,0 +1,22 @@
+#statuspanel {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+div[class^="status"] {
+    padding: 9px;
+    margin: 0% 15%;
+}
+
+.status1 {
+    background-color: orangered;
+}
+
+.status2 {
+    background-color: orange;
+}
+
+.status3 {
+    background-color: lightgreen;
+}

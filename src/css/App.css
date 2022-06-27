@@ -1,0 +1,124 @@
+@import url("Order.css");
+@import url("Form.css");
+@import url("Auth.css");
+@import url("Admin.css");
+@import url("Menu.css");
+@import url("Status.css");
+@import url("Chef.css");
+@import url("Home.css");
+
+* {
+    border-radius: 30px;
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+    background-color: #E6D5B8;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    height: 100%;
+    margin: 3%;
+}
+
+header, nav {
+    flex: 0 0 auto;
+}
+
+header {
+    background-color: #8E3200;
+}
+
+h1 {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 3px;
+}
+
+nav {
+    background-color: #8E3200;
+    padding: 0px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin: 0px;
+    padding: 0px 30px;
+}
+
+nav ul li {
+    border-radius: 0px;
+    padding: 15px;
+}
+
+nav ul li:last-of-type {
+    margin-left: auto;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:visited {
+    color: white;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+main {
+    flex: 1 0 auto;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+h2 {
+    margin: 10px 0px 10px 0px;
+}
+
+div[class^="success"] {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0px;
+    padding: 9px;
+    margin: 10px 10%;
+}
+
+.success-false {
+    background-color: #8E3200;
+    color: white;
+}
+
+.success-true {
+    background-color: #E6D5B8;
+}
+
+footer {
+    flex: 0 0 auto;
+}
+
+footer p {
+    margin: 0px;
+}
+
+footer p:first-of-type {
+    margin-top: 9px;
+}
+
+footer p:last-of-type {
+    margin-bottom: 9px;
+}

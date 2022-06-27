@@ -1,0 +1,23 @@
+.chefpanel {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    flex-wrap: wrap;
+}
+
+#activeorders, #chefhandle {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+#activeorders li {
+    background-color: #E6D5B8;
+    padding: 9px;
+}
+
+#activeorders li h4, #chefhandle h4 {
+    margin: 9px;
+}

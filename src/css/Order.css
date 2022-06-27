@@ -1,0 +1,46 @@
+.flexcol-true {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3px;
+    align-content: center;
+}
+
+.flexcol-false {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+#neworderpage > div:first-child {
+    flex: 1.25;
+    background-color: #f1e5cd;
+    margin: 9px;
+}
+
+#neworderpage > div:last-child {
+    flex: 2;
+}
+
+#orderform fieldset ul {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+#orderform > div:last-child {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.orderitem {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

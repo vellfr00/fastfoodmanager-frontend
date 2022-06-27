@@ -1,0 +1,48 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+form:not(.form-no-margin) {
+    margin: 0% 10%;
+}
+
+input, select, fieldset {
+    padding: 12px 20px;
+    border-radius: 9px;
+    border: 2px solid #ccc;
+}
+
+select {
+    width: 100%;
+    max-width: 90%;
+}
+
+button {
+    color: white;
+    background-color: #8E3200;
+    padding: 9px;
+    border: 0px;
+    font-weight: bold;
+    border-radius: 9px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=submit] {
+    border: 0px;
+    background-color: #8E3200;
+    color: white;
+    font-weight: bold;
+}

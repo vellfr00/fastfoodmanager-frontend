@@ -1,0 +1,13 @@
+#features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 9px;
+}
+
+#features > li {
+    background-color: #f1e5cd;
+    padding: 9px;
+    max-width: 300px;
+}
